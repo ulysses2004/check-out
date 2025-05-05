@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana;
+    text-align: justify;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.full-text{
+    margin-top: 20px;
+}
