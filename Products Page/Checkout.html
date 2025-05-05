@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="9 Style.css">
+<!--Checkout Page-->
+<div class="checkout-container">
+    <h1 style="text-align: center;">Checkout</h1>
+    <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <u id="cart-list"></u>
+    </div>
+    <br>
+    <form id="checkout-form">
+        <!--Shipping Information-->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" required>
+        </div>
+
+        <!--Payment Information-->
+        <div class="payment">
+        <tr>
+            <td><b>Payment Method:</b></td> <br>
+            <td>
+                <input type="radio" name="payment method">PAYPAL <br>
+                <input type="radio" name="payment method">GCASH <br>
+                <input type="radio" name="payment method">COD <br>
+            </td>
+        </tr>
+        <br>
+    </div>
+        <!--Submit Button-->
+        <center><button type="submit">Place Order</button></center>
+    </form>
+</div>
